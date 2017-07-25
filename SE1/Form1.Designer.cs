@@ -46,7 +46,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(573, 193);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.ColumnCount = 4;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.Columns[0].Name = "Subject";
             this.dataGridView1.Columns[1].Name = "Date";
             this.dataGridView1.Columns[2].Name = "From";
@@ -78,7 +77,6 @@
 
             this.progressBar1.Visible = true;
             this.progressBar1.Minimum = 1;
-            //    progressBar1.Maximum = files.Count();
             this.progressBar1.Value = 1;
             this.progressBar1.Step = 1;
 
